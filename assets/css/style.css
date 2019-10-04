@@ -1,0 +1,154 @@
+
+.wh-20{
+    width: 20px;
+    height: 20px;
+}
+.wh-30{
+    width: 30px;
+    height: 30px;
+}
+.wh-40{
+    width: 40px;
+    height: 40px;
+}
+.wh-50{
+    width: 50px;
+    height: 50px;
+}
+.wh-60{
+    width: 60px;
+    height: 60px;
+}
+.wh-70{
+    width: 70px;
+    height: 70px;
+}
+.wh-80{
+    width: 80px;
+    height: 80px;
+}
+.wh-90{
+    width: 90px;
+    height: 90px;
+}
+.wh-100{
+    width: 100px;
+    height: 100px;
+}
+.text-bold-600 {
+    font-weight: 600;
+}
+.img-round{
+    border-radius: 50%;
+}
+table>thead>tr>th{
+    font-size: inherit!important;
+    font-weight: 600;
+}
+table.dataTable{
+    margin-bottom: 40px!important;
+}
+.dataTables_length .custom-select.custom-select-sm{
+    padding: 10px;
+}
+.section-head{
+    color: #fff;
+    margin: 0 15px 20px;
+    padding: 15px;
+    position: relative;
+    border-radius: 3px;
+}
+.header-rose{
+    background: linear-gradient(60deg,#ec407a,#d81b60);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(233,30,99,.4);
+}
+.header-info{
+    background: linear-gradient(60deg,#26c6da,#00acc1);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4);
+}
+.header-primary{
+    background: linear-gradient(60deg,#ab47bc,#8e24aa);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(156,39,176,.4);
+}
+.section-head>i{
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    top: 0;
+    margin-top: -1em;
+    margin-bottom: -0.85em;
+    vertical-align: middle;
+}
+/* ///////////////// Nav Bar ///////////////////// */
+.navbar .navbar-brand{
+    padding: 0.625rem 25px;
+    margin: 0;
+}
+.navbar .navbar-brand>span{
+    display: inline-block;
+    margin-right: 10px;
+}
+/* ////////////////////////////////////////////// */
+
+/* //////////////// Side bar ///////////////////////// */
+.sidebar{
+    box-shadow: 0 16px 13px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+.sidebar .logo .simple-text{
+    text-align: left;
+}
+.simple-text.logo-mini{
+    opacity: 1;
+    float: left;
+    width: 30px;
+    margin-left: 23px;
+    margin-right: 15px;
+}
+.sidebar .logo .simple-text.logo-normal{
+    display: block;;
+    opacity: 1;
+    transform: translateZ(0);
+}
+/* //////////// Sidebar mini ////////////// */
+.sidebar-mini .sidebar .nav li a{
+    padding: 10px;
+}
+/* ///////////////////////////////////////// */
+
+/* ///////////////////// theme Setting ///////////////// */
+.fixed-plugin{
+    top: 65px;
+}
+.fixed-plugin .dropdown .dropdown-menu{
+    top: -18px!important;
+}
+.fixed-plugin .dropdown-menu:before, .fixed-plugin .dropdown-menu:after{
+    top: 45px;
+}
+.fixed-plugin .dropdown .dropdown-menu li.adjustments-line{
+    border-bottom: none;
+}
+.footer .copyright{
+    padding: 40px 0 0;
+}
+/* ////////////////////////////////////////////////////// */
+.icon-btn{
+    cursor: pointer;
+}
+
+/* ////////////////////// MODAL General ///////////// */
+.modal .modal-dialog {
+    margin-top: 25px;
+}
+.modal-title{
+    font-weight: 600;
+}
+/* //////////////////////////////////////////// */
+/* /////////////////// View Info card //////////////// */
+.view-info-card .card-body{
+    font-size: 12px;
+}
+.view-profile-img{
+    margin-top: 70px;
+}
+/* //////////////////////////////////////////////////// */
