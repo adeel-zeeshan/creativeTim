@@ -233,7 +233,7 @@
                       <div class="row mt-4">
                         <div class="col-md-6 col-sm-6">
                           <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Date of Birth">
+                            <input type="text" class="form-control datepicker" placeholder="Date of Birth">
                           </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -922,6 +922,11 @@
     input2.addEventListener("countrychange", function () {
       var countryData = intlTelInputInstance.getSelectedCountryData();
       // console.log(countryData);
+    });
+    $('document').ready(function(){
+      $( ".datepicker" ).datetimepicker({
+        format: 'DD/MM/YYYY'
+      });
     });
   </script>
 </body>
